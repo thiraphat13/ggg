@@ -1,0 +1,58 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+  --c1: #ff6464;
+  --c2: #69b2f771;
+  --c3: #68eb98;
+  --c4: #448f6c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.5s;
+  transform: 1s;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #f0faff; */
+
+  background-image: url("bg-0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  /* background-color: var(--c2); */
+  text-align: center;
+  justify-content: center;
+  font-size: 90px;
+  color: #ffffff;
+  text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+.content button {
+  border-radius: 1px;
+  padding: 1px 50px;
+  font-size: 50px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #0000004f;
+  border: none;
+  box-shadow: 0.1em 0.1em 0.05em #333
+}
+
+.content button:hover {
+  box-shadow: 0.15em 0.15em 0.05em #333
+}
